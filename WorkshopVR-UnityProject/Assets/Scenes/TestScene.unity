@@ -241,6 +241,101 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1001 &476320580
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 547082488}
+    m_Modifications:
+    - target: {fileID: 3933455567144511162, guid: cdb25b3adc035b3479afede01f30c2b0, type: 3}
+      propertyPath: m_Name
+      value: Globe Puzzle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7191872727514222169, guid: cdb25b3adc035b3479afede01f30c2b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.4540396
+      objectReference: {fileID: 0}
+    - target: {fileID: 7191872727514222169, guid: cdb25b3adc035b3479afede01f30c2b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.030000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7191872727514222169, guid: cdb25b3adc035b3479afede01f30c2b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.6739312
+      objectReference: {fileID: 0}
+    - target: {fileID: 7191872727514222169, guid: cdb25b3adc035b3479afede01f30c2b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7191872727514222169, guid: cdb25b3adc035b3479afede01f30c2b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7191872727514222169, guid: cdb25b3adc035b3479afede01f30c2b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7191872727514222169, guid: cdb25b3adc035b3479afede01f30c2b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7191872727514222169, guid: cdb25b3adc035b3479afede01f30c2b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7191872727514222169, guid: cdb25b3adc035b3479afede01f30c2b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7191872727514222169, guid: cdb25b3adc035b3479afede01f30c2b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cdb25b3adc035b3479afede01f30c2b0, type: 3}
+--- !u!4 &476320581 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7191872727514222169, guid: cdb25b3adc035b3479afede01f30c2b0, type: 3}
+  m_PrefabInstance: {fileID: 476320580}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &547082487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 547082488}
+  m_Layer: 0
+  m_Name: Puzzle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &547082488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547082487}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1256809707}
+  - {fileID: 476320581}
+  m_Father: {fileID: 2037005520}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &765113985
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,6 +398,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1256809706
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 547082488}
+    m_Modifications:
+    - target: {fileID: 182239429225409391, guid: 5e4e41600ad1dfe448b71825469fbca4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.109952
+      objectReference: {fileID: 0}
+    - target: {fileID: 182239429225409391, guid: 5e4e41600ad1dfe448b71825469fbca4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 182239429225409391, guid: 5e4e41600ad1dfe448b71825469fbca4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.76851654
+      objectReference: {fileID: 0}
+    - target: {fileID: 182239429225409391, guid: 5e4e41600ad1dfe448b71825469fbca4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 182239429225409391, guid: 5e4e41600ad1dfe448b71825469fbca4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 182239429225409391, guid: 5e4e41600ad1dfe448b71825469fbca4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 182239429225409391, guid: 5e4e41600ad1dfe448b71825469fbca4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 182239429225409391, guid: 5e4e41600ad1dfe448b71825469fbca4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 182239429225409391, guid: 5e4e41600ad1dfe448b71825469fbca4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 182239429225409391, guid: 5e4e41600ad1dfe448b71825469fbca4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4923089122854083149, guid: 5e4e41600ad1dfe448b71825469fbca4, type: 3}
+      propertyPath: m_Name
+      value: Cylinder Puzzle
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e4e41600ad1dfe448b71825469fbca4, type: 3}
+--- !u!4 &1256809707 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 182239429225409391, guid: 5e4e41600ad1dfe448b71825469fbca4, type: 3}
+  m_PrefabInstance: {fileID: 1256809706}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1308970557
 GameObject:
   m_ObjectHideFlags: 0
@@ -936,7 +1093,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 547082488}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
