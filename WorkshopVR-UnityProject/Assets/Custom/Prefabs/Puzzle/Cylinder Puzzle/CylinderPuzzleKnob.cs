@@ -23,7 +23,7 @@ public class CylinderPuzzleKnob : MonoBehaviour
 
     public void PushKnob(){
         // Get new rotation in Vector3
-        Vector3 newRotation = new Vector3(transform.rotation.eulerAngles.x,transform.rotation.eulerAngles.y,transform.rotation.eulerAngles.z + 60);
+        Vector3 newRotation = new Vector3(transform.rotation.eulerAngles.x,transform.rotation.eulerAngles.y,transform.rotation.eulerAngles.z + 30);
         // Set Rotation
         transform.rotation = Quaternion.Euler(newRotation);
     }
