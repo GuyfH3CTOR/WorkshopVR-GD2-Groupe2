@@ -28,24 +28,23 @@ public class BookPuzzle : MonoBehaviour
     private Unlock_Event onUnlock = new Unlock_Event();
 
     void CheckAllLocks(){
-        // write sentence
+        // write lock
         lockWordTest = bookSideLetters1+bookSideLetters2+bookSideLetters3+bookSideLetters4+bookSideLetters5;
-        // Globe Unlock
+        Debug.Log("lockwordTest : "+ lockWordTest);
+        // Puzzle Unlock
         if(lockWordTest == lockWord){
             Debug.Log("Book Opened");
             onUnlock.Invoke();
         }
     }
-    public void SetSideLetter(string bookSideLetters){
-        WordTest = bookSideLetters;
-    }
 
     public void OpenLock(int socketNumber, string bookSideLetters){
-        if(socketNumber == 1)bookSideLetters1 = WordTest;
-        if(socketNumber == 2)bookSideLetters2 = WordTest;
-        if(socketNumber == 3)bookSideLetters3 = WordTest;
-        if(socketNumber == 3)bookSideLetters4 = WordTest;
-        if(socketNumber == 3)bookSideLetters5 = WordTest;
+        Debug.Log("OpenLock : "+ socketNumber +","+bookSideLetters);
+        if(socketNumber == 1)bookSideLetters1 = bookSideLetters;
+        if(socketNumber == 2)bookSideLetters2 = bookSideLetters;
+        if(socketNumber == 3)bookSideLetters3 = bookSideLetters;
+        if(socketNumber == 4)bookSideLetters4 = bookSideLetters;
+        if(socketNumber == 5)bookSideLetters5 = bookSideLetters;
         CheckAllLocks();
     }
 
@@ -53,8 +52,8 @@ public class BookPuzzle : MonoBehaviour
         if(socketNumber == 1)bookSideLetters1 = new string("");
         if(socketNumber == 2)bookSideLetters2 = new string("");
         if(socketNumber == 3)bookSideLetters3 = new string("");
-        if(socketNumber == 3)bookSideLetters4 = new string("");
-        if(socketNumber == 3)bookSideLetters5 = new string("");
+        if(socketNumber == 4)bookSideLetters4 = new string("");
+        if(socketNumber == 5)bookSideLetters5 = new string("");
         CheckAllLocks();
     }
 }

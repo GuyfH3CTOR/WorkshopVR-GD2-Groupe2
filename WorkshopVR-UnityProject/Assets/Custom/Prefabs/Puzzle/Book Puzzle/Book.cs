@@ -6,5 +6,5 @@ public class Book : MonoBehaviour
 {
     [Header("######## GLOBE PUZZLE ########")]
     [Header("---- Variables ----")]
-    public string bookSideLetters;
+    public string sideLetters;
 }

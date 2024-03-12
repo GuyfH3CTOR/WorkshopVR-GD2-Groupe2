@@ -197,8 +197,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 7
-  m_fontSizeBase: 7
+  m_fontSize: 5
+  m_fontSizeBase: 5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -267,8 +267,8 @@ Transform:
   m_GameObject: {fileID: 5376271601756375459}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.70710677, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.003, y: 0, z: 0.504}
-  m_LocalScale: {x: 0.044296846, y: 1.053, z: 0.22065136}
+  m_LocalPosition: {x: 0.003, y: 0, z: 0.513}
+  m_LocalScale: {x: 0.044296846, y: 1.0213257, z: 0.1800515}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5392190408327240184}
@@ -301,7 +301,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: bf6a673a7ceb9fd45968b0283b67b5bf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -658,7 +658,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -712,6 +712,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9c4ed332f397774c8651eedc468eba3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sideLetters: 
 --- !u!1 &6234685140533678606
 GameObject:
   m_ObjectHideFlags: 0

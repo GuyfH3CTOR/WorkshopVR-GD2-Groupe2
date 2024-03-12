@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4404222127238233601}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Snapzone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50,7 +50,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7191872727514222169}
   - component: {fileID: 8365327889268160148}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Globe Puzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 236272616965754787}
   - component: {fileID: 6739949729024593495}
   - component: {fileID: 2466494123980682469}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Globe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -201,7 +201,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4330375400074047175}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Pins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -296,6 +296,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4404222127238233601}
     m_Modifications:
+    - target: {fileID: 1545091711479653959, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587219091775295530, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2244441367303206827, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -339,6 +347,10 @@ PrefabInstance:
     - target: {fileID: 2836886655799123013, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
       propertyPath: m_Name
       value: Sphere Snapzone (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2836886655799123013, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3123914187194679961, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
       propertyPath: m_HoverExited.m_PersistentCalls.m_Calls.Array.size
@@ -488,6 +500,14 @@ PrefabInstance:
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4670786335612992337, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7778899369538204720, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -506,6 +526,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4404222127238233601}
     m_Modifications:
+    - target: {fileID: 1545091711479653959, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587219091775295530, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2244441367303206827, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -550,6 +578,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere Snapzone (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2836886655799123013, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4670786335612992337, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7778899369538204720, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -568,6 +608,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4404222127238233601}
     m_Modifications:
+    - target: {fileID: 1545091711479653959, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587219091775295530, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2244441367303206827, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -611,6 +659,10 @@ PrefabInstance:
     - target: {fileID: 2836886655799123013, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
       propertyPath: m_Name
       value: Sphere Snapzone (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2836886655799123013, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3123914187194679961, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
       propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.size
@@ -684,6 +736,14 @@ PrefabInstance:
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4670786335612992337, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7778899369538204720, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -702,6 +762,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4404222127238233601}
     m_Modifications:
+    - target: {fileID: 1545091711479653959, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587219091775295530, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2244441367303206827, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -746,6 +814,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere Snapzone
       objectReference: {fileID: 0}
+    - target: {fileID: 2836886655799123013, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4670786335612992337, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7778899369538204720, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -764,6 +844,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4404222127238233601}
     m_Modifications:
+    - target: {fileID: 1545091711479653959, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587219091775295530, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2244441367303206827, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -808,6 +896,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere Snapzone (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2836886655799123013, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4670786335612992337, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7778899369538204720, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -826,6 +926,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4404222127238233601}
     m_Modifications:
+    - target: {fileID: 1545091711479653959, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587219091775295530, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2244441367303206827, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -870,6 +978,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere Snapzone (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2836886655799123013, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4670786335612992337, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7778899369538204720, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -888,6 +1008,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4404222127238233601}
     m_Modifications:
+    - target: {fileID: 1545091711479653959, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587219091775295530, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2244441367303206827, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -931,6 +1059,18 @@ PrefabInstance:
     - target: {fileID: 2836886655799123013, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
       propertyPath: m_Name
       value: Sphere Snapzone (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2836886655799123013, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4670786335612992337, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7778899369538204720, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1074,6 +1214,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4404222127238233601}
     m_Modifications:
+    - target: {fileID: 1545091711479653959, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587219091775295530, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2244441367303206827, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1117,6 +1265,10 @@ PrefabInstance:
     - target: {fileID: 2836886655799123013, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
       propertyPath: m_Name
       value: Sphere Snapzone (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2836886655799123013, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3123914187194679961, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
       propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.size
@@ -1190,6 +1342,14 @@ PrefabInstance:
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4670786335612992337, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7778899369538204720, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1208,6 +1368,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4404222127238233601}
     m_Modifications:
+    - target: {fileID: 1545091711479653959, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587219091775295530, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2244441367303206827, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1251,6 +1419,18 @@ PrefabInstance:
     - target: {fileID: 2836886655799123013, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
       propertyPath: m_Name
       value: Sphere Snapzone (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2836886655799123013, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4670786335612992337, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7778899369538204720, guid: 01c34a9e70b58ea4895303e5be58dec3, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
