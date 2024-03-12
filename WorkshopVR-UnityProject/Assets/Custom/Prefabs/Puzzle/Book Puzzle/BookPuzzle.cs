@@ -30,7 +30,7 @@ public class BookPuzzle : MonoBehaviour
     void CheckAllLocks(){
         // write lock
         lockWordTest = bookSideLetters1+bookSideLetters2+bookSideLetters3+bookSideLetters4+bookSideLetters5;
-        Debug.Log("lockwordTest : "+ lockWordTest);
+        // Debug.Log("lockwordTest : "+ lockWordTest);
         // Puzzle Unlock
         if(lockWordTest == lockWord){
             Debug.Log("Book Opened");
@@ -39,7 +39,7 @@ public class BookPuzzle : MonoBehaviour
     }
 
     public void OpenLock(int socketNumber, string bookSideLetters){
-        Debug.Log("OpenLock : "+ socketNumber +","+bookSideLetters);
+        // Debug.Log("OpenLock : "+ socketNumber +","+bookSideLetters);
         if(socketNumber == 1)bookSideLetters1 = bookSideLetters;
         if(socketNumber == 2)bookSideLetters2 = bookSideLetters;
         if(socketNumber == 3)bookSideLetters3 = bookSideLetters;
