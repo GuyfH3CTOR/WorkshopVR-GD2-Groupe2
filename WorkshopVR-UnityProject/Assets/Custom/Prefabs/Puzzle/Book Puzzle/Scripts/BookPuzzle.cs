@@ -11,8 +11,7 @@ public class BookPuzzle : MonoBehaviour
     [Header("######## BOOK PUZZLE ########")]
     [Header("---- Variables ----")]
     public string lockWord;
-    private string lockWordTest;
-    private string WordTest;
+    public string lockWordTest;
     // Locks
     private string bookSideLetters1;
     private string bookSideLetters2;
@@ -33,7 +32,7 @@ public class BookPuzzle : MonoBehaviour
         // Debug.Log("lockwordTest : "+ lockWordTest);
         // Puzzle Unlock
         if(lockWordTest == lockWord){
-            Debug.Log("Book Opened");
+            // Debug.Log("Book Opened");
             onUnlock.Invoke();
         }
     }

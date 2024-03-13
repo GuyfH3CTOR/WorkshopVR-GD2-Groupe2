@@ -7,7 +7,7 @@ public class BookSocket : MonoBehaviour
     [Header("######## GLOBE PUZZLE ########")]
     [Header("---- Variables ----")]
     public int socketNumber;
-    private string newBookSideLetters;
+    public string newBookSideLetters;
     public string bookSideLetters;
 
     [Header("---- References ----")]
@@ -26,9 +26,10 @@ public class BookSocket : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider c){
+            // Debug.Log("triggerEnter"+ c.gameObject);
         if(c.gameObject.GetComponent<Book>()){
+            // Debug.Log("book detected in enter : "+ c.gameObject);
             newBookSideLetters = c.gameObject.GetComponent<Book>().sideLetters;
-            // Debug.Log("book in socket");
         }
     }
 }
