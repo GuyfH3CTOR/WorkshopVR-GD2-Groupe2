@@ -421,6 +421,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6673877477990710554}
+  - component: {fileID: 3047128787931276451}
   - component: {fileID: 3662892402232296228}
   - component: {fileID: 1725907460575984388}
   - component: {fileID: 9199590862469916421}
@@ -450,6 +451,27 @@ Transform:
   - {fileID: 919378088248155779}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &3047128787931276451
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6613707869952788411}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 819
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.04
+  m_Center: {x: 0, y: 0.02, z: 0.01}
 --- !u!54 &3662892402232296228
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -491,7 +513,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
   m_Colliders:
-  - {fileID: 6637592892891141613}
+  - {fileID: 3047128787931276451}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
