@@ -3,7 +3,17 @@ guid: 30ec7365b98be1f4bb9cddd9b9837f64
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChevaletMat
+    second: {fileID: 2100000, guid: c2582b9bd66bd7e48bae7a85d960606c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TableauMat
+    second: {fileID: 2100000, guid: 8cbf99004bf0ae54696e562d3613fcfb, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

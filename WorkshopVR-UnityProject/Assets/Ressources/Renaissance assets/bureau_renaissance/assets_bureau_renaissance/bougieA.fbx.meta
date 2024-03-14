@@ -3,7 +3,12 @@ guid: 0e1afff3bf5b0db47a7eb4bad944a534
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BougieMat
+    second: {fileID: 2100000, guid: 5658b92aaa7810f48bc8f388986464e3, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

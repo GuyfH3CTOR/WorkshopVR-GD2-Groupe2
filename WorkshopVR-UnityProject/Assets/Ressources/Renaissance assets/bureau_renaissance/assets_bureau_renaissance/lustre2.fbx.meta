@@ -3,7 +3,12 @@ guid: 66432d2ceab3ee94485d4a3f072646d9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LustreMat
+    second: {fileID: 2100000, guid: c43015de86ab2e24e8050ff234dfd7b6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

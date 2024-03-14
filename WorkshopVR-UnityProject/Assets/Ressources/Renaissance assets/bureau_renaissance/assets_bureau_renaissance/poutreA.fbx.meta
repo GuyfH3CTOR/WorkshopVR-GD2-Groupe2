@@ -3,7 +3,12 @@ guid: d7e8ee82c05f202469309ac676236447
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SolPoutresMat
+    second: {fileID: 2100000, guid: c8e627772a75ab2498757c8420b7dc0f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

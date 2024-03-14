@@ -3,7 +3,12 @@ guid: 02bb3ed563cc4914fac8f093c1a85bdb
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KitCommunV5_FenetreBMat
+    second: {fileID: 2100000, guid: 689db306d65b1064cba097ec0aef819d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

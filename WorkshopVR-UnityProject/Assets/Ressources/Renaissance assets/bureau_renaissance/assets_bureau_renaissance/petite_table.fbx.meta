@@ -3,7 +3,12 @@ guid: b1c283ed471fccf4aae35efce9a04916
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TablePigmentsMat
+    second: {fileID: 2100000, guid: 522030e2d8b42954f8b3bdbf3a2a5991, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
