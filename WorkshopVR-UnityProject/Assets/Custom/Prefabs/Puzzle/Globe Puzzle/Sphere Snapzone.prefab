@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 6154342529852716344}
   - component: {fileID: 5028707995971456812}
   - component: {fileID: 3123914187194679961}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Socket Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -383,7 +383,7 @@ GameObject:
   - component: {fileID: 6371504578313887186}
   - component: {fileID: 5263824368373699962}
   - component: {fileID: 9056049652709219655}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
