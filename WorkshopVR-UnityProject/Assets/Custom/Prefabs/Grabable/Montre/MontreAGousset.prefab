@@ -177,6 +177,82 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &2833355762993656014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 335989451588260503}
+  - component: {fileID: 2750000910495692927}
+  - component: {fileID: 7878060905784410875}
+  m_Layer: 0
+  m_Name: Detector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &335989451588260503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2833355762993656014}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 51.6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4071036916229040441}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2750000910495692927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2833355762993656014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36e5ae7a7c8d4f04db3a88aa54ff11f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToDetect: 5
+  time: 0
+  onUnlock:
+    m_PersistentCalls:
+      m_Calls: []
+  Lettre: {fileID: 0}
+  audioSourceVoice: {fileID: 0}
+  audioClip: {fileID: 0}
+--- !u!136 &7878060905784410875
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2833355762993656014}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 428.40903
+  m_Direction: 1
+  m_Center: {x: -0.00000016101461, y: 164.20575, z: 0.00000027538186}
 --- !u!1 &4315704369287181054
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,6 +287,7 @@ Transform:
   m_Children:
   - {fileID: 176602551928430324}
   - {fileID: 3007525872341451552}
+  - {fileID: 335989451588260503}
   m_Father: {fileID: 6673877477990710554}
   m_LocalEulerAnglesHint: {x: 105, y: 0, z: 0}
 --- !u!33 &1376773787983378856
