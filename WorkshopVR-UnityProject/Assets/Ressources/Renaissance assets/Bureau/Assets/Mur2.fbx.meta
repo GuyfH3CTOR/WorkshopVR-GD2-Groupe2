@@ -3,7 +3,12 @@ guid: 680e38b7fef91254b9505fce7ac38a54
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KitCommunV5_MursPlatsMat
+    second: {fileID: 2100000, guid: c8dd382d51e22d64fa5bb780f3c7b452, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

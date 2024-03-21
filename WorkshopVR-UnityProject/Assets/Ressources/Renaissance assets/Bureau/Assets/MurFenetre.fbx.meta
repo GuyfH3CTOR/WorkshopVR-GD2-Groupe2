@@ -3,7 +3,12 @@ guid: 0525d5b88d38341459926eb43eb60237
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KitCommunV5_MurEnluminureMat
+    second: {fileID: 2100000, guid: 94163f893187ffc48911584b334b255c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
