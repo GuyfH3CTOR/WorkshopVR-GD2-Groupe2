@@ -31,7 +31,13 @@ public class BalancePuzzle : MonoBehaviour
         RightArm.transform.rotation = Quaternion.Euler(new Vector3(0,RightArm.transform.rotation.eulerAngles.y,RightArm.transform.rotation.eulerAngles.z));
     }
 
-    void AddWeigth(float _weigth){
+    public void AddWeigth(float _weigth){
         weigth = weigth + _weigth;
+        UpdateArm();
+    }
+
+    public void ResetWeight(){
+        weigth = 0;
+        UpdateArm();
     }
 }
