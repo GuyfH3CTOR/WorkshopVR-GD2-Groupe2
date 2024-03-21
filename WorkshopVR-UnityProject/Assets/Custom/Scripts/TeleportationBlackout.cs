@@ -9,7 +9,7 @@ public class TeleportationBlackout : MonoBehaviour
     [Header("Settings")]
     public float vignetteApertureSpeed;
     private float vignetteAperture = 1;
-    private bool apertureOpen = true;    
+    public bool apertureOpen = true;    
     private bool changeAperture;
     private bool isClosing;
 
