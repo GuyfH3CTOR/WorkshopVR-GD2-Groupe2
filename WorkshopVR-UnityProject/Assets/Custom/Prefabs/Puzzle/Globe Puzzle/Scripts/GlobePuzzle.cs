@@ -14,7 +14,7 @@ public class GlobePuzzle : MonoBehaviour
     private bool lock1;
     private bool lock2;
     private bool lock3;
-    private bool lock4;
+    // private bool lock4;
 
     // Event 
     [Serializable]
@@ -36,7 +36,7 @@ public class GlobePuzzle : MonoBehaviour
     }
     void CheckAllLocks(){
         // Globe Unlock
-        if(lock1 && lock2 && lock3 && lock4){
+        if(lock1 && lock2 && lock3){
             // Debug.Log("Globe Opened");
             onUnlock.Invoke();
         }
@@ -46,7 +46,7 @@ public class GlobePuzzle : MonoBehaviour
         if(lockNumber == 1)lock1 = true;
         if(lockNumber == 2)lock2 = true;
         if(lockNumber == 3)lock3 = true;
-        if(lockNumber == 4)lock4 = true;
+        // if(lockNumber == 4)lock4 = true;
         CheckAllLocks();
     }
 
@@ -54,7 +54,7 @@ public class GlobePuzzle : MonoBehaviour
         if(lockNumber == 1)lock1 = false;
         if(lockNumber == 2)lock2 = false;
         if(lockNumber == 3)lock3 = false;
-        if(lockNumber == 4)lock4 = false;
+        // if(lockNumber == 4)lock4 = false;
         CheckAllLocks();
     }
 

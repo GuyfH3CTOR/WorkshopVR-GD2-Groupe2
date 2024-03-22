@@ -3,7 +3,12 @@ guid: 6d5654149c8b315438bf27841f0c063e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TableEchiquierMat
+    second: {fileID: 2100000, guid: a7fa57ed4b7dbe640b864552a96eb223, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

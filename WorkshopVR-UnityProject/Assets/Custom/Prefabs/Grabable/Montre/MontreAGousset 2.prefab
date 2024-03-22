@@ -229,7 +229,6 @@ MonoBehaviour:
       m_Calls: []
   Lettre: {fileID: 0}
   audioSourceVoice: {fileID: 0}
-  audioClip: {fileID: 0}
 --- !u!136 &7878060905784410875
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -435,7 +434,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 343
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: a83a12c632e81084da8d3ddac85ee0ea, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: d1da9b1e99518ee4aa2fa269dff4f218, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
@@ -503,7 +502,7 @@ GameObject:
   - component: {fileID: 1725907460575984388}
   - component: {fileID: 9199590862469916421}
   m_Layer: 0
-  m_Name: MontreAGousset
+  m_Name: MontreAGousset 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

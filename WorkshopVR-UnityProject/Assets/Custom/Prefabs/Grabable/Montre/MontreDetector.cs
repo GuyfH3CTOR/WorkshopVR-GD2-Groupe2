@@ -24,14 +24,12 @@ public class MontreDetector : MonoBehaviour
     public GameObject Lettre;
     // Audio
     public AudioSource audioSourceVoice;
-    public AudioClip audioClip;
     
     void Update(){
         if(detected && canBeDetected) time = time + Time.deltaTime;
         if(time >= timeToDetect && canBeDetected){
             canBeDetected = false;
-
-            audioSourceVoice.clip = audioClip;
+            
             audioSourceVoice.Play(0);
         }
         if(!canBeDetected && !audioSourceVoice.isPlaying && !stop){
