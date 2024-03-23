@@ -3,53 +3,66 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Serialization;
 
-public class MontreDetector : MonoBehaviour
+[Serializable]
+public class Letter
 {
-    [Header("Settings")]
-    public float timeToDetect = 5;
-    public float time;
-    private bool canBeDetected = true;
-    private bool detected;
-    private bool stop;
+    public GameObject letterToDetect;
+    public AudioSource audioSourceVoice;
+    public bool letterCanBeDetected = true;
+    public bool letterAsBeenRead;
 
     // Event 
     [Serializable]
     public class Unlock_Event : UnityEvent {}
     [FormerlySerializedAs("onUnlock")]
     [SerializeField]
-    private Unlock_Event onUnlock = new Unlock_Event();
+    public Unlock_Event onUnlock = new Unlock_Event();
+}
 
-    [Header("References")]
-    // To be detected
-    public GameObject Lettre;
-    // Audio
-    public AudioSource audioSourceVoice;
+public class MontreDetector : MonoBehaviour
+{
+    [Header("Settings")]
+    public float timeToDetectLetter = 5;
+    public float time;
+    public int letterDetected;
+
+    private bool detected;
+
+    [Header("References : Lettre To Detect")]
+    public Letter[] letters;
     
     void Update(){
-        if(detected && canBeDetected) time = time + Time.deltaTime;
-        if(time >= timeToDetect && canBeDetected){
-            canBeDetected = false;
+        if(detected && letters[letterDetected].letterCanBeDetected) time = time + Time.deltaTime;
+
+        if(time >= timeToDetectLetter && letters[letterDetected].letterCanBeDetected){
+            letters[letterDetected].letterCanBeDetected = false;
             
-            audioSourceVoice.Play(0);
+            letters[letterDetected].audioSourceVoice.Play(0);
+            Debug.Log("play" + letters[letterDetected]);
         }
-        if(!canBeDetected && !audioSourceVoice.isPlaying && !stop){
-            stop = true;
+
+        if(!letters[letterDetected].letterCanBeDetected && !letters[letterDetected].audioSourceVoice.isPlaying && !letters[letterDetected].letterAsBeenRead){
+            letters[letterDetected].letterAsBeenRead = true;
             // Debug.Log("voice finished");
-            onUnlock.Invoke();
+            letters[letterDetected].onUnlock.Invoke();
         }
     }
 
     void OnTriggerEnter(Collider collider){
-        if(collider.gameObject == Lettre){
-            // Debug.Log("letter in collider");
-            detected = true;
+        for(int i = 0; i < letters.Length; i++){
+            if(collider.gameObject == letters[i].letterToDetect){
+                letterDetected = i;
+                detected = true;
+            }
         }
     }
 
     void OnTriggerExit(Collider collider){
-        if(collider.gameObject == Lettre){
-            time = 0;
-            detected = false;
+        for(int i = 0; i < letters.Length; i++){
+            if(collider.gameObject == letters[i].letterToDetect){
+                time = 0;
+                detected = false;
+            }
         }
     }
 }
